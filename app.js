@@ -17,8 +17,9 @@ const reviewRouter = require('./routes/reviewRoutes');
 const bookingRouter = require('./routes/bookingRoutes');
 const viewRouter = require('./routes/viewRoutes');
 
-// const { create } = require('domain');
-// const { deepStrictEqual } = require('assert');
+
+
+// Start express app
 const app = express();
 
 app.set('view engine', 'pug');
